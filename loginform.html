@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iCrowd Task Login</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card bg-light">
+            <article class="card-body mx-auto" style="max-width: 600px;">
+                <h4 class="card-title mt-4 text-center">Login to your iCrowdTask Account</h4>
+                <form action="/login" method="POST">
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"></i> </span>
+                        </div>
+                        <input name="email" class="form-control" placeholder="Email Address*" type="email">
+                    </div>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> </i> </span>
+                        </div>
+                        <input name="password" class="form-control" placeholder="Password*" type="password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </div>
+                    
+                    <label>
+                        <input type="checkbox" checked="checked" name="save_pass"> Save Password
+                    </label>
+        </div>
+        <p class="text-center">Don't have an account? <a href="index.html">Create an Account!</a> </p>
+        </form>
+        </article>
+    </div>
+    </div>
+    </article>
+</body>
+</html>
