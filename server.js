@@ -14,7 +14,7 @@ const { urlencoded } = require('body-parser')
 
 const PORT = process.env.PORT || 5000
 
-mongoose.connect("mongodb+srv://admin-manveenbhullar:Tasmania26@@cluster0.stah1.mongodb.net/iServiceDB?retryWrites=true&w=majority", { useNewUrlParser:true });
+mongoose.connect("mongodb+srv://admin-manveenbhullar:tasmania@cluster0.stah1.mongodb.net/iServiceDB?retryWrites=true&w=majority", { useNewUrlParser:true });
 
 const app = express()
 app.use(express.static("public"))
